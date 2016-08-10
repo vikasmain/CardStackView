@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools" app:stackHeaderHeight="300dp" android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linear_list_card_item">
+
+
+    <FrameLayout android:layout_height="300dp" android:layout_width="match_parent" android:id="@+id/frame_list_card_item" android:background="@drawable/shape_rectangle_with_radius">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_list_card_title" android:textColor="@android:color/white" android:textStyle="bold" android:layout_margin="20dp" android:textSize="40sp" tools:text="12"/>
+
+</FrameLayout>
+
+
+    <ScrollView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/container_list_content" android:animateLayoutChanges="true" android:scrollbars="none" android:overScrollMode="never" android:paddingBottom="60dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/text_view" android:text="Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners.Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners.Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners.Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners.Every corner must (initially) be provided a corner radius greater than 1, or else no corners are rounded. If you want specific corners to not be rounded, a work-around is to use android:radius to set a default corner radius greater than 1, but then override each and every corner with the values you really want, providing zero (0dp) where you don't want rounded corners." android:padding="12dp"/>
+
+</ScrollView>
+
+</LinearLayout>

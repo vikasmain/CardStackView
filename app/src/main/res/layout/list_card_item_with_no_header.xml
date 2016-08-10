@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/linear_list_card_item">
+
+
+    <FrameLayout android:layout_height="400dp" android:layout_width="match_parent" android:id="@+id/frame_list_card_item" android:background="@drawable/shape_rectangle_with_radius">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_list_card_title" tools:text="12" android:textStyle="bold" android:textSize="40sp" android:textColor="@android:color/white" android:layout_margin="20dp"/>
+
+</FrameLayout>
+
+</LinearLayout>
